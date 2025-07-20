@@ -1,9 +1,12 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import random
+import os
+TOKEN = os.getenv("7633243613:AAGDrXirTcPYotF17SgHQAZQPEI78NbEFUQ")
+
 
 # 🔑 Replace with your actual bot token
-TOKEN = "7633243613:AAGDrXirTcPYotF17SgHQAZQPEI78NbEFUQ"
+# TOKEN = "7633243613:AAGDrXirTcPYotF17SgHQAZQPEI78NbEFUQ"
 
 # Vocabulary list
 vocab = {
